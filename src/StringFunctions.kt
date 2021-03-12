@@ -7,8 +7,7 @@ fun main() {
     println(nameAge("Shadya", 22 ))
 
     //Question 3
-    var text="Hello world"
-        println(text.length)
+    println(stringLength("Hello world"))
 
     //Question 4
     var randomName=myName("Shadya")
@@ -27,6 +26,10 @@ fun nameAge(name:String, age:Int):String{
     return "Hi my name is $name and I am $age years old"
 }
 
+fun stringLength(word:String):Int{
+    var greeting=word.length
+    return greeting
+}
 
 fun myName(name:String):String{
 
